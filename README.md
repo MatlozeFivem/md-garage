@@ -1,5 +1,5 @@
 # MD Garage & Fourrière 🚗
-
+:wrench:  Si vous avez le moindre problème voici notre discord https://discord.gg/NKeUfcFNrd
 Un script de garage moderne et performant pour ESX avec une interface "Glassmorphism" ultra-fluide et un système de fourrière intégré.
 
 ## ✨ Fonctionnalités
@@ -45,3 +45,4 @@ local impound = {
 ## 📋 Dépendances
 - `es_extended`
 - `oxmysql`
+

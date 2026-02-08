@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Garage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="app" style="display: none;">
+        <div class="container">
+            <header>
+                <h1><i class="fa-solid fa-warehouse"></i> GARAGE<span id="garage-name">MAIN</span></h1>
+                <div class="close-btn" onclick="closeUI()"><i class="fa-solid fa-xmark"></i></div>
+            </header>
+
+            <main id="vehicle-list">
+                <!-- Vehicles will be injected here -->
+            </main>
+
+            <div id="transfer-modal" style="display: none;">
+                <div class="modal-content">
+                    <h3>SÉLECTIONNER UN GARAGE</h3>
+                    <div id="garage-options">
+                        <!-- Garage options will be injected here -->
+                    </div>
+                    <button class="btn btn-secondary" onclick="closeTransferModal()">ANNULER</button>
+                </div>
+            </div>
+
+            <footer>
+                <p>Sélectionnez un véhicule pour le sortir ou le transférer</p>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
